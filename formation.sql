@@ -55,3 +55,10 @@ SELECT *
 FROM etudiants
 ORDER BY id DESC
 LIMIT 10;
+-- 10. Étudiants utilisant Vodacom
+SELECT *
+FROM etudiants
+WHERE operateur = 'Vodacom';
+
+
+
